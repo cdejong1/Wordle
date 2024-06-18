@@ -40,4 +40,6 @@ while play_again != "q":
             break
         elif attempt == 6:
             print(f"Sorry the wordle was.. {word}\n")
+
+        print("test")
     play_again = input("Want to play again? Type q to exit.\n")
